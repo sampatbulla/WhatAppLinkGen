@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #0073e6;
+}
+flex{
+    display: flex;
+}
+input {
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005bbd;
+}
+
+#whatsAppLink {
+    display: none; /* Initially hide the WhatsApp link */
+    margin-top: 10px;
+}
+
+#whatsAppLink a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #25d366; /* WhatsApp green color */
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+
+#whatsAppLink a:before {
+    position: absolute;
+    left: 20px;
+}
+
+#whatsAppLink a:hover {
+    background-color: #128c7e; /* Darker shade of WhatsApp green on hover */
+}
+
+@media screen and (max-width:450px){
+    body{
+        margin: 30px;
+    }
+    h1{
+        font-size: 4em;
+    }
+    p{
+        color: grey;
+    }
+}
