@@ -1,9 +1,7 @@
 body {
     text-align: center;
     font-family: Arial, sans-serif;
-     display: table-cell;
-    height: 100%;
-    vertical-align: middle;
+    margin-top: 10%;
 }
 
 h1 {
